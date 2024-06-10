@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
           <SignedOut>
             <SignInButton
               mode="redirect"
-              signUpForceRedirectUrl={process.env.NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL}
+              signUpForceRedirectUrl={process.env.NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL}
             />
           </SignedOut>
           <SignedIn>
